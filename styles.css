@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+:root{
+    --x:rgb(154, 173, 125);
+    /* rgb(166, 176, 150) */
+  
+}
+#logo{
+    height: 150px;
+    width: 150px;
+}
+#navbarSupportedContent ul{
+    gap: 3rem;
+}
+#li-color a:hover{
+    background-color: rgb(132, 129, 129);
+    /* color: white; */
+}
+#li-color a{
+    color: white;
+}
+.section-bg{
+    background-image: url('https://images.unsplash.com/photo-1543320996-542b8a0e022c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment:fixed;
+    padding-top: 5%;
+    
+}
+#btn-download{
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(154, 134, 134);
+    padding:8px;
+    border: none; 
+    font-size: large;
+    border: 2px solid #aec4b1; ;
+
+}
+#btn-download a{
+    text-decoration: none;
+
+}
+#btn-download:hover{
+    background-color:rgb(117, 117, 115);
+}
+
+.content{
+    margin:90px 100px;
+    font-size:20px;
+}
+.content p{
+    color: white;
+}
+.content h1{
+    font-size: 45px;
+    color: white;
+}
+.content a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+#page3{
+
+    margin: 50px 100px;
+
+}
+
+
+.bar{
+    width: 90%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+
+}
+#htmlbar{
+    width: 80%;
+    background-color:var(--x);
+}
+#cssbar{
+    width: 70%;
+    background-color: var(--x);
+}
+
+#jsbar{
+    width: 58%;
+    background-color: var(--x);
+}
+#reactbar{
+    width: 70%;
+    background-color: var(--x);
+}
+.barcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    position: relative;
+}
+
+.barcontainer span{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.rightimage img{
+    width:90%;
+    /* padding-left: 100px; */
+}
+
+#about-img{
+    width: 450px;
+    height: 660px;
+}
+
+#bg-about{
+    background-image: url('https://images.unsplash.com/photo-1528731708534-816fe59f90cb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment:fixed;
+    padding-top: 5%;
+    
+}
+
+#headings{
+    color: var(--x);
+}
+.progressbar{
+    width: 100%;
+}
+
+.card{
+    transition: transform 0.2s ease-in-out;
+}
+.card-hover:hover{
+    transform: scale(1.1);
+   
+}
+
+@media(max-width:540px){
+    #profile-img{
+        width: 365px;
+        height: 253px;
+        border-radius: 6px;
+    }
+    #headings{
+        padding-left: 50px;
+    }
+    #skill-graph{
+        padding-right: 30px;
+    }
+  
+}
